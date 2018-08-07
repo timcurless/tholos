@@ -1,7 +1,7 @@
 pipeline {
 
   agent {
-    label "jenkins-docker"
+    label "core-docker"
   }
 
   stages {
