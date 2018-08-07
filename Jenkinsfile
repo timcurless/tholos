@@ -19,15 +19,6 @@ pipeline {
       }
     }
 
-    stage('Promote to Production') {
-      when {
-        branch 'master'
-      }
-      steps {
-
-      }
-    }
-
   }
 
   post {
